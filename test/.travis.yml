@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: 5z/RcdCovBN3Mut0LUd7hb3nlKyO7Bj4M6T96OBi7Z53avkJDjEz8NogtpqUJx6FJbl5H+MdS+pRiS3on6kuavGd0IwJUa5ceiWSiMOWKmA/YLgvSwL51eZJzaHl9zEV2mehLdbCBqzE3KJr5+d8zIy6urCX5RR9YoFDtQnEY+mQIDA0ZVhRXm9aiaXFAqy7CxhunJRsG3ft5ubewOGIjBRrNzK4/kU3ZRvxBG8fFtFlRlLv22XTS/bIy6+ij2V0y7HEnPbehgHWU8wVEUX2lEGFmNn8h5rYN34KpInWDl4sdrpB75oJDRN/dnzmUrSHCux6m1QhdtbNJS1h0odREhU7DArDWqKPjsfcOCP/drR4/1Dr/zImdyfut3XMGyrO+9JxTJY3MsY2ES3L3LgAPdb5MekcL/YXpuWLeQmbeIDwNyJD9x2yPtVy55KCgrTzMryMriYpkIa94p/Jv54gwVe5PtMY3QHeqKesatlYZIk1/8gjFR+9ttr52CNiJtuwTUteA1m/EnRd53eT0l9XQ3TivxBNgwEgEqCXAyOBh6XxzAF8aKV/r2aJdt7K9VcYG0LgYqoGnrEWbnNjzZIYIxvxTTMuxJgyN3BAmPtHBbI3pjtH0agMnimNTeag3j9tFOSFECrrGmMk/Jz/etg54I1IZPvsjEtnNCLrGHxjb9c=
+  app: blog-app-mongoose-challenge-solution
+  on:
+    repo: tone2k/blog-app-mongoose-challenge-solution
